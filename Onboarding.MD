@@ -1,3 +1,12 @@
+---
+aliases: [Development]
+tags: onboarding
+title: Development
+linter-yaml-title-alias: Development
+date created: Wednesday, December 21st 2022, 8:35:07 pm
+date modified: Sunday, December 25th 2022, 5:50:40 pm
+---
+
 # Development
 
 ## Code Management
@@ -83,6 +92,8 @@
 - Do we currently measure how many releases or config changes we do that result in a change to customer experience? How often do we push changes to our customers?
 - Do we currently measure how long it takes to go from starting a feature to delivering that feature to a customer? (i.e., Lead Time to Change)
 - Are there any metrics tracked at the company level about product/engineering effectiveness? What are they? Who has access to the data? How are targets defined? What is the cadence for review of these metrics? How are these metrics produced?
+- Are we happy with the current velocity? Are there specific areas where the velocity isn't where we want it to be? What's been the business impact of this mismatch between desire and performance?
+- Is there an area where the velocity is perceived as good by the business and sustainable by the team? What leads to these perceptions?
 
 ## Operations
 - What do we use for logging, log analysis, and alerting? What kind of access policy do we have to production services and access to logs? Is it open to everyone?
@@ -175,25 +186,25 @@
 - How are the bonuses of engineers/engineering managers/product managers calculated? Does everyone understand how their bonus is calculated? Do we regularly hit bonus targets?
 
 ## Teams/Organization
-- What's the structure of the organization? How does it look from a Conway's Law perspective?
+- What's the structure of the organization? How do the product and engineering organizations look from a Conway's Law perspective?
 - What is the mix of skillsets of the team?
 - What is the mix of experience/seniority of the team?
 - How long have engineers been on their team?
 - What does the leadership bench look like?
-- What's the ratio of managers to direct reports?
+- What's the ratio of managers to direct reports? Is this ok?
 
 # Business
 
 ## Strategy and Execution
 - What's the long term goal of the business? (IPO/acquisition/operate independently indefinitely/preserve optionality and kick ass/etc…)
-- What is our mission / vision?
-- What are our values? Are these values explicit or implied?
+- What are our mission / vision / values? Are these explicit or implied?
 - Are we trying to 10x the business over a period of time?
 - What are the current goals/targets/OKRs of the business?
-- How are these tracked?
+- Who is accountable for each of the goals?
+- Do we use a formal methodology for setting/tracking targets?
+- How are these tracked? Is the tracking automated? Do we want the tracking to be automated?
 - How well does the organization understand the targets? Who has access to how we are progressing to targets?
 - What is the process/cadence for setting/reviewing targets?
-- Do we use a formal methodology for setting/tracking targets?
 - What is the behavior when progress towards targets is off track?
 - Are targets aspirational where we'd be happy to hit 70% or do we expect to hit 100% of goal?
 - What are the targets at the department level?
@@ -207,6 +218,7 @@
 - What metrics are produced around the support function? Is there a cadence for reviewing these metrics?
 - What does the initial customer onboarding process look like?
 - How does the support group interact with system data?
+- Do we require any investment in new systems?
 
 ## Marketing
 - Who is accountable for marketing?
@@ -234,6 +246,7 @@
 - How do we handle authentication for SaaS systems?
 - What does the offboarding process look like for an employee who leaves the organization?
 - How do we track which SaaS products are in use?
+- Do we require any investment in new systems?
 
 ## Legal/Compliance
 - Are we involved in any active lawsuits?
@@ -241,6 +254,7 @@
 - What types of regulatory jurisdictions and regulations must we comply with? How prepared are we for audits? Do we have controls documented and can we quickly produce reliable data to back up our stated controls?
 - Do we have other contractual obligations we need to meet or comply with (such as with partners) that may not be directly linked to regulations? E.g., process, quality of delivery, downtime, etc.
 - Who (or what role) is accountable currently for making sure we remain compliant with regulators?
+- Do we require any investment in new systems?
 
 ## Finance
 - How do we track R&D expenses for tax purposes?
@@ -253,9 +267,10 @@
 - What does the budgeting/planning process look like? Timelines? Key dates?
 - What is our fiscal year?
 - What are the key financial metrics? What is current state of those metrics?
+- Do we require any investment in new systems?
  
 ## Board
 - Who is on the board?
 - What was in the last presentation to the board? What information do we consistently provide to the board?
 - Who is expected to present to the board?
-- When are the board meetings?
+- When is the next board meeting?
