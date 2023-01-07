@@ -50,7 +50,7 @@ PRs welcome if there are other topics of interest.
 - Do we have clear policies around data security, security classification, and how we need to treat each classification while in motion and at rest?
 - Do we do automated vulnerability testing during CI? Static analysis? Dynamic analysis? Open source vulnerabilities? Sonarqube?
 - Do we do external penetration testing? When was the last test? What were the findings? Is the next test scheduled?
-- How prepared are we to prevent a data breach that compromises trust in the system?
+- How prepared are we to prevent, detect, respond to, mitigate, and recover from, a data breach that compromises trust in the system?
 - What is the current API security model? How do we handle client auth? How do we handle user auth? How do we handle inter-service call auth and transitive auth chains reliably and securely? What kind of auth do we do internally between services?
 - Do we have clear data classification guidelines in terms of risk exposure for personally identified information (PII) and/or regulated data that are clearly and consistently implemented in our services? How do we know we’re compliant?
 - Do we have an understanding of what data may be emitted (intentionally or unintentionally) by APIs that could pose a PII or security risk?
