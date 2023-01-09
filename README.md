@@ -26,6 +26,9 @@ PRs welcome if there are other topics of interest.
 - How do we know if a project is on track or not?
 - Is there any cadence for the regular review of project status with stakeholders?
 - What tools do we use to track work? How well are those tools working for us?
+- How are delviery expectations communicated and manged with clients and users?
+- What types of non-functional requirements are set in place for teams to execute against?
+- What level of commitment / compliance do we require and maintain against various user disabilities, including sight, hearing, and motor impairments?
 
 ## Developer Ergonomics
 - Do we have a standard IDE? What do we use and is this consistent? Who decides? Are other IDEs in use?
@@ -54,6 +57,7 @@ PRs welcome if there are other topics of interest.
 - What is the current API security model? How do we handle client auth? How do we handle user auth? How do we handle inter-service call auth and transitive auth chains reliably and securely? What kind of auth do we do internally between services?
 - Do we have clear data classification guidelines in terms of risk exposure for personally identified information (PII) and/or regulated data that are clearly and consistently implemented in our services? How do we know we’re compliant?
 - Do we have an understanding of what data may be emitted (intentionally or unintentionally) by APIs that could pose a PII or security risk?
+- Are we maintianing and/or pursuing compliance with security standards such is ISO 27k, SOC II, GDPR, FedRAMP, etc?
 
 ## Continuous Integration
 - Do we automatically build and run our pipelines upon code commit?
@@ -258,6 +262,7 @@ PRs welcome if there are other topics of interest.
 
 ## Finance
 - How do we track R&D expenses for tax purposes?
+- How do we track hosting/distribution/usage expenses for COGs purposes? Who is accountable for projection/tracking and who is holding which teams accountable for these costs?
 - What policies exist around travel and expenses?
 - What is the process to negotiate or renew a contract with a vendor?
 - Who can sign agreements?
